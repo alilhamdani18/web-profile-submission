@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+
+header {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  padding: 1em;
+  background-color: #850909;
+  box-shadow: 1px 1px 3px #0101;
+  color: #eee;
+  position: fixed;
+}
+header .title span {
+  color: rgb(179, 255, 0);
+}
+
+
+
+main .jumbotron {
+  background-image: url(https://storage.googleapis.com/bucket-web-profile-alil/jumbotron-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4rem;
+  /* width: 100vw; */
+  height: 100vh;
+  text-align: center;
+}
+
+
+main .jumbotron img {
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  width: 300px;
+  border: 5px solid #850909;
+  border-radius: 50%;
+}
+main .jumbotron .jumbotron-text {
+  background-color: #fff;
+  padding: 1em;
+  border-radius: 5px;
+  line-height: 2rem;
+}
+main .jumbotron .jumbotron-text span {
+  color: #850909;
+}
+section {
+  padding: 4em 2em;
+}
+main .about img {
+  width: 400px;
+}
+main .about .title {
+  text-align: center;
+  margin: 2em 0;
+}
+main .about .profile {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* align-items: start; */
+}
+main .about .bio {
+  line-height: 2rem;
+  margin-top: 2rem;
+}
+main .about .skills {
+  display: flex;
+  gap: 1rem;
+}
+main .about .skill {
+  text-align: center;
+
+}
+main .about .skill img {
+  margin-top: 2em;
+  width: 100px;
+  aspect-ratio: 1/1;
+}
+footer {
+  text-align: center;
+  padding: 2em;
+}
+footer .support {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+footer .support img {
+  width: 400px;
+
+}
